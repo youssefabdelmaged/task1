@@ -1,0 +1,1104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0b9586;
+  padding: 1rem 2rem;
+}
+.img9 {
+  width: 150px;
+  height: auto;
+  margin: 5px 5px;
+  border: 1px solid blue;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.list-button {
+  margin: 0 15px;
+}
+.list-button a {
+  text-decoration: none;
+  /* Shop */
+
+  width: 47px;
+  height: 22px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.9375px;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.call-us {
+  display: flex;
+  flex-direction: column;
+}
+.call-us h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  letter-spacing: 0.9375px;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.call-us span {
+  /* Call Us */
+
+  width: 66px;
+  height: 22px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.9375px;
+
+  color: #ffffff;
+}
+.banner {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.bannerText {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.bannerH1 {
+  /* Solar Panel Installers In Plymouth */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 63px;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.bannerP {
+  /* Fueled is an award-winning technology consultancy that transforms businesses by generating ideas, building products, and accelerating growth. */
+
+  /* Text xl/Semibold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  color: #ffffff;
+}
+
+.BannerButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.BannerButtons button {
+  border: none;
+
+  padding: 12px 34px;
+
+  border-radius: 109px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: 0.08em;
+
+  color: #ffffff;
+}
+.btn1 {
+  width: 173px;
+  background: #0b9586;
+}
+.btn2 {
+  width: 208px;
+
+  background: #ffbb1c;
+}
+.imgBanner {
+  object-fit: cover;
+  width: 100%;
+}
+/* 2nd section */
+
+.installer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.textGrid .imgGrid {
+  margin: 50px 20px;
+}
+
+.textGrid {
+  width: 55%;
+  padding: 50px;
+}
+.textGrid h1 {
+  display: flex;
+  margin-bottom: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+
+  color: #101828;
+}
+.textGrid p {
+  display: flex;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #475467;
+  margin-bottom: 50px;
+}
+.imgGrid {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgBox {
+  width: 100%;
+}
+.imgBox img {
+  width: 100%;
+  object-fit: cover;
+}
+.imgGrid {
+  position: relative;
+}
+.imgGrid .charging {
+  position: absolute;
+  width: 266px;
+  height: 208px;
+  background-color: #ffbb1c;
+  border-radius: 10%;
+  left: -15px;
+  bottom: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  overflow: hidden;
+  gap: 10px;
+}
+.charging img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+
+  margin: 20px 10px 0;
+}
+.charging p {
+  margin: 5px 20px 0;
+  font-family: "Akazan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.9375px;
+
+  color: #2a3334;
+}
+
+.imgGrid .imgBox img {
+  object-fit: cover;
+  padding: 50px;
+}
+.styled-list {
+  counter-reset: item;
+  padding: 0;
+  margin: 0;
+}
+.styled-list li {
+  margin-left: 5px;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2b2b2b;
+  position: relative;
+  margin: 10px 0;
+  padding-left: 30px;
+}
+
+.styled-list li::before {
+  content: counter(item, decimal-leading-zero) " / ";
+  counter-increment: item;
+  position: absolute;
+  left: -10px;
+  top: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #8cc63f;
+  margin-right: 5px;
+}
+
+/* 3rd sec */
+
+.power {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.power img {
+  width: 100%;
+  object-fit: cover;
+}
+.TextPower {
+  width: 55%;
+  position: absolute;
+  margin: 50px 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.TextPower h1 {
+  /* Power that Doesn't Cost the Earth */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.TextPower p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+
+  color: #ffffff;
+}
+
+.TextPower button {
+  border: none;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 12px 34px;
+  gap: 10px;
+
+  width: 173px;
+  height: 41px;
+
+  background: #ffbb1c;
+  color: #ffffff;
+  border-radius: 109px;
+}
+/* 4th sec */
+
+.centerd-section-solar-kits {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+.solarKits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em;
+}
+.solarKits .TExtBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.solarKits .TExtBox h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Gray/900 */
+  color: #101828;
+}
+.solarKits .TExtBox p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #475467;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 1rem;
+  gap: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  object-fit: cover;
+  width: 100%;
+}
+.card .viewporduct {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  padding: 5px;
+  flex-wrap: nowrap;
+}
+.card .viewporduct img {
+  width: 10%;
+  height: 10%;
+  margin-left: 5px;
+}
+
+.card .viewporduct a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #3cab90;
+}
+
+/* 5th sec */
+
+.raplacementContaine {
+  width: 100%;
+  position: relative;
+}
+.raplacementContaine img {
+  width: 100%;
+  object-fit: cover;
+}
+.theBox {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 44px;
+  gap: 32px;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.57);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+
+  z-index: 2;
+
+  color: #fff;
+}
+.theBox h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.theBox p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+
+  color: #ffffff;
+}
+/* 6th sec */
+.energySection {
+  display: flex;
+  background-color: hsla(42, 100%, 55%, 0.1);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.leftside {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  margin-left: 5rem;
+}
+.leftside h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+
+  color: #101828;
+}
+.leftside p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #475467;
+}
+.energyCard {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: end;
+  padding: 2rem;
+  margin-right: 5rem;
+}
+.roundCard {
+  border-radius: 5%;
+  background-color: #3cab8f33;
+}
+.roundCard img {
+  border-radius: 5%;
+  filter: brightness();
+}
+
+.imgBackground {
+  /* Featured icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+
+  background: #d4e6e1;
+  border: 21px solid rgba(60, 171, 144, 0.15);
+  border-radius: 10px;
+
+  flex: none;
+  flex-grow: 0;
+}
+.imgBackground div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+
+  background: #3cab90;
+  border: 21px solid rgba(60, 171, 144, 0.15);
+  border-radius: 10px;
+}
+
+/*7th sec */
+
+.testmonials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 10px;
+}
+.whatTheySay {
+}
+.parentOfTesto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.testimon {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 40px;
+  gap: 87px;
+
+  background: rgba(60, 171, 144, 0.06);
+  border-radius: 24px;
+}
+
+.testimon p:first-child {
+  /* What they say */
+
+  width: 110px;
+  height: 20px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #3cab90;
+}
+.testimon p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+
+  color: #101828;
+}
+
+.user {
+  display: flex;
+}
+.user p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #1c1c1c;
+}
+.user div {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.whatTheySay {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 5rem;
+  margin-left: 5rem;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+
+  background: #283646;
+  padding: 50px;
+  overflow: hidden;
+}
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.upper ul {
+  display: flex;
+  list-style: none;
+}
+.upper ul li {
+  margin: 10px;
+}
+.upper ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.upper p {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.theInput {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.theInput input {
+  padding: 0 0 0 20px;
+  width: 406px;
+  height: 48px;
+
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid #b3bdc7;
+  border-radius: 38px;
+}
+.theInput button {
+  border: none;
+  padding: 20px 34px;
+  gap: 10px;
+  width: 150px;
+  height: 48px;
+
+  background: #ffbb1c;
+  color: #fff;
+  border-radius: 109px;
+
+  position: absolute;
+  right: 0;
+  top: 1px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lower {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  color: #fff;
+}
+
+/* Extra Small Devices */
+@media (max-width: 576px) {
+  /* Mobile-specific styles */
+  .nav-list {
+    display: none;
+  }
+  .call-us {
+    display: none;
+  }
+  /* banner */
+  .banner {
+    display: flex;
+    height: 400px;
+  }
+  .bannerText {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 20px;
+  }
+  .bannerH1,
+  .bannerP {
+    text-align: center;
+  }
+  .bannerH1 {
+    font-size: 28px;
+  }
+  .bannerP {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .BannerButtons {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+  }
+  .btn1,
+  .btn2 {
+    height: 40px;
+  }
+  .btn1 {
+    width:60%;
+  }
+
+  /* installer */
+  .installer {
+    flex-direction: column;
+  }
+  .textGrid h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .textGrid p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .styled-list li h3 {
+    font-size: 16px;
+  }
+
+  .imgGrid {
+    margin-right: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgGrid .charging {
+    width: 170px;
+    height: 140px;
+    bottom: 40px;
+    left: 20px;
+    padding-top: 5px;
+    margin-left: 3rem;
+  }
+
+  .charging img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .charging p {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  /* power */
+  .power {
+    justify-content: center;
+    height: 300px;
+    overflow: hidden;
+  }
+  .power img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .TextPower {
+    padding: 50px;
+    align-items: center;
+
+    width: 100%;
+    gap: 10px;
+    line-height: 12px;
+  }
+  .TextPower h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .TextPower p {
+    font-size: 16px;
+    text-align: center;
+    line-height: normal;
+    margin: 0 10px;
+  }
+  /* replacement */
+  .replacement {
+    display: flex;
+    height: 500px;
+  }
+  .raplacementContaine img {
+    height: 100%;
+  }
+  .theBox {
+    padding: 60px;
+  }
+  .theBox h1 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  /* .energySection */
+
+  .energySection {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .leftside {
+    margin: 0;
+  }
+  .energyCard {
+    margin: 0;
+    flex-wrap: nowrap;
+  }
+  .leftside h1,
+  p {
+    text-align: center;
+  }
+  /*testmonials  */
+  .testmonials {
+    flex-direction: column;
+  }
+  .whatTheySay {
+    margin: 0;
+    overflow: hidden;
+  }
+  .parentOfTesto {
+    margin: 0;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 100%;
+  }
+  .centerd-section-solar-kits {
+    width: 100%;
+  }
+  /* footer */
+  .footer {
+    overflow: hidden;
+  }
+  .upper {
+    flex-direction: column;
+  }
+  .theInput {
+    margin-bottom: 10px;
+  }
+  .theInput input {
+    width: 320px;
+  }
+  .lower {
+    font-size: 12px;
+  }
+}
+
+/* Small Devices */
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Small device styles */
+  .img9 {
+    width: 120px;
+  }
+  .call-us h5 {
+    font-size: 18px;
+  }
+
+  .bannerH1 {
+    font-size: 33px;
+  }
+  .bannerP {
+    font-size: 16px;
+  }
+
+  .BannerButtons {
+    gap: 20px;
+  }
+  .BannerButtons button {
+    margin-top: 10px;
+    padding: 8px 24px;
+  }
+
+  .installer {
+    flex-direction: column;
+  }
+  .imgGrid .imgBox img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .imgGrid .charging {
+    width: 150px;
+    height: 125px;
+  }
+  .charging img {
+    width: 50px;
+    height: 50px;
+  }
+  .charging p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 12px;
+    margin: 5px 10px 0;
+  }
+
+  .textGrid h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .styled-list li {
+    font-size: 14px;
+  }
+  .TextPower {
+    gap: 10px;
+  }
+  .TextPower h1 {
+    font-size: 18px;
+  }
+  .TextPower p {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+  .TextPower button {
+    width: 150px;
+    height: 30px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/* Medium Devices */
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Tablet-specific styles */
+  .call-us h5 {
+    font-size: 18px;
+  }
+  .bannerText {
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 20px;
+  }
+  .bannerH1 {
+    font-size: 38px;
+  }
+  .bannerP {
+    font-size: 18px;
+  }
+
+  .BannerButtons button {
+    margin-top: 10px;
+    padding: 8px 24px;
+  }
+  .imgGrid .imgBox img {
+    width: 70%;
+  }
+  .imgGrid .charging {
+    width: 120px;
+    height: 90px;
+  }
+  .charging img {
+    width: 40px;
+    height: 40px;
+  }
+  .charging p {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 5px 10px 0;
+  }
+
+  .textGrid h1 {
+    font-size: 32px;
+  }
+  .styled-list li {
+    font-size: 14px;
+  }
+
+  .TextPower {
+    gap: 10px;
+  }
+  .TextPower h1 {
+    font-size: 22px;
+  }
+  .TextPower p {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+  .TextPower button {
+    width: 150px;
+    height: 30px;
+  }
+
+  .replacement {
+    height: 500px;
+    display: flex;
+  }
+  .raplacementContaine img {
+    height: 100%;
+  }
+  .energySection {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .leftside {
+    margin: 0;
+  }
+  .energyCard {
+    margin: 0;
+    flex-wrap: nowrap;
+  }
+  .leftside h1,
+  p {
+    text-align: center;
+  }
+  .footer {
+    overflow: hidden;
+  }
+  .upper {
+    flex-direction: column;
+  }
+
+  .theInput {
+    margin-bottom: 10px;
+  }
+  .theInput input {
+    width: 420px;
+  }
+  .lower {
+    font-size: 12px;
+  }
+}
+
+/* Large Devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* Desktop-specific styles */
+  .bannerText {
+    top: 70px;
+    left: 50px;
+    gap: 40px;
+  }
+  .styled-list li {
+    font-size: 14px;
+  }
+}
+
+/* Extra Large Devices */
+@media (min-width: 1200px) {
+  /* Large desktop-specific styles */
+  .bannerText {
+    gap: 60px;
+  }
+}
